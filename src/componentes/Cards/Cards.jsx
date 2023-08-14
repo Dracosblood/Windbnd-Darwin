@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import Icons from "../icons";
+import Icons from "../Icons";
 
 //usaremos el stays directamente desde este componente para mantener el app mas libre y ordenado
 const Cards = ({ city, guests }) => {
