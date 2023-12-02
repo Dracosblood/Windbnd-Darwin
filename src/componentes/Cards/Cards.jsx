@@ -47,11 +47,11 @@ const Cards = ({ city, guests }) => {
             </div>
             <div className="rating">
               <div>
-                <p className="type">
-                  {el.superHost && <div className="superhost">SuperHost</div>}{" "}
+                <div className="type">
+                  {el.superHost && <p className="superhost">SuperHost</p>}{" "}
                   {el.type}{" "}
                   {el.beds && <p className="beds"> . {el.beds} beds </p>}
-                </p>
+                </div>
               </div>
               <div className="points">
                 <Icons /> <div className="numbers"> {el.rating} </div>{" "}
