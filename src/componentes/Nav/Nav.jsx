@@ -5,7 +5,7 @@ const nav = ({ onCityChange, onGuestsChange,}) =>{
   return (
     <div className="caja-nav">
         <div className="contenedor-logo">
-           <img src="/src/img/logo.png" alt=""/>
+           <img src="../src/img/logo.png" alt=""/>
         </div>
 
         <div className="contenedor-input">
