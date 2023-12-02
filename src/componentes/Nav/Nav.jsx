@@ -10,7 +10,7 @@ const nav = ({ onCityChange, onGuestsChange,}) =>{
 
         <div className="contenedor-input">
             <select className="parrafo-search" placeholder="Whole Finland" onChange={onCityChange}>
-              <spam>Whole Finland</spam>
+             
               <option value='Helsinki'>Helsinkin, Finland</option>
               <option value='Turku'>Turku, Finland</option>
               <option value='Vaasa'>Vaasa, Firland</option>
